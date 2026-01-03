@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -7,6 +9,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Business Info */}
           <div>
+            <div className="mb-4">
+              <Image
+                src="/logos/ChatGPT Image Jan 3, 2026, 12_10_41 AM.png"
+                alt="Africa Hardware Plumbing & Electrical Logo"
+                width={150}
+                height={150}
+                className="w-auto h-16 sm:h-20 object-contain"
+              />
+            </div>
             <h3 className="text-2xl font-bold mb-4 text-orange uppercase">
               Africa Hardware
             </h3>
@@ -60,7 +71,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4 text-white uppercase">Our Promise</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               We guarantee to beat any written quote. Quality products, unbeatable prices,
-              real service. That's our commitment.
+              real service. That&apos;s our commitment.
             </p>
           </div>
         </div>

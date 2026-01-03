@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* POSTCSS PROBE */
+.test-postcss {
+  @apply bg-red-500 text-white p-4;
+}
+
+/* Custom globals BELOW this line only */
+html,
+body {
+  height: 100%;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}

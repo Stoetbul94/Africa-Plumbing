@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import WhyChoose from "@/components/WhyChoose";
 import ProductCategories from "@/components/ProductCategories";
+import FeaturedProducts from "@/components/FeaturedProducts";
 import GoogleReviews from "@/components/GoogleReviews";
 import PriceBeatingPromise from "@/components/PriceBeatingPromise";
 import VisitStore from "@/components/VisitStore";
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Hero />
       <WhyChoose />
+      <FeaturedProducts />
       <ProductCategories />
       <GoogleReviews />
       <PriceBeatingPromise />
