@@ -50,9 +50,9 @@ export default function Hero() {
               <Image
                 src="/logos/ChatGPT Image Jan 3, 2026, 12_10_41 AM.png"
                 alt="Africa Hardware Plumbing & Electrical Logo"
-                width={200}
-                height={200}
-                className="w-auto h-28 sm:h-36 md:h-44 lg:h-52 object-contain drop-shadow-[0_0_30px_rgba(255,122,0,0.6)]"
+                width={400}
+                height={400}
+                className="w-auto h-40 sm:h-52 md:h-64 lg:h-80 xl:h-96 object-contain drop-shadow-[0_0_30px_rgba(255,122,0,0.6)]"
                 priority
               />
             </div>

@@ -13,9 +13,9 @@ export default function Footer() {
               <Image
                 src="/logos/ChatGPT Image Jan 3, 2026, 12_10_41 AM.png"
                 alt="Africa Hardware Plumbing & Electrical Logo"
-                width={150}
-                height={150}
-                className="w-auto h-16 sm:h-20 object-contain"
+                width={250}
+                height={250}
+                className="w-auto h-24 sm:h-32 md:h-40 object-contain"
               />
             </div>
             <h3 className="text-2xl font-bold mb-4 text-orange uppercase">
